@@ -13,7 +13,7 @@ const Dash = () => {
 
   return (
     <>
-       <Navbar expand="lg" bg='dark' className="bg-body-dark">
+       <Navbar expand="lg" bg='light' className="bg-body-dark">
       <Container fluid>
         <Navbar.Brand href="/">DashBoard</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -31,8 +31,7 @@ const Dash = () => {
             </Nav.Link>
           </Nav>
     
-            <Button variant="outline-success">Login</Button>
-         
+            
         </Navbar.Collapse>
       </Container>
     </Navbar>
